@@ -12,7 +12,7 @@ gem 'cancan'
 gem 'simple_form'
 gem 'active_attr'
 gem 'valid_email'
-gem 'pg'
+gem 'mysql2'
 gem 'awesome_print'
 
 group :assets do
@@ -37,6 +37,8 @@ group :test, :development do
   gem 'cane'
   gem 'morecane'
   gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :development do
